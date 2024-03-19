@@ -8,11 +8,11 @@ The UK Food Standards Agency evaluates various establishments across the United 
 ## Part 1: Database and Jupyter Notebook Set Up
 
 ### Importing Data
-To import the data provided in the `establishments.json` file into the MongoDB database, run the following command in your Terminal: `mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json`
+To import the data provided in the [`establishments.json`](https://github.com/myhre062/nosql-challenge/blob/main/Resources/establishments.json) file in the `Resources` folder into the MongoDB database, run the following command in your Terminal once you have navigated to the `Resources` folder: `mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json`
 
 
 ### Notebook Set Up
-In the Jupyter Notebook `NoSQL_setup_starter.ipynb`, the following steps are performed:
+In the Jupyter Notebook [`NoSQL_setup_starter.ipynb`](https://github.com/myhre062/nosql-challenge/blob/main/NoSQL_setup_starter.ipynb), the following steps are performed:
 
 1. Importing necessary dependencies such as `MongoClient` from `pymongo` and `pprint`.
 2. Creating an instance of `MongoClient`.
@@ -28,7 +28,7 @@ In the Jupyter Notebook `NoSQL_setup_starter.ipynb`, the following steps are per
 ## Part 3: Exploratory Analysis
 
 ### Notebook Set Up
-In the Jupyter Notebook `NoSQL_analysis_starter.ipynb`, the following steps are performed:
+In the Jupyter Notebook [`NoSQL_analysis_starter.ipynb`](https://github.com/myhre062/nosql-challenge/blob/main/NoSQL_analysis_starter.ipynb), the following steps are performed:
 
 1. Importing necessary dependencies such as `MongoClient`, `pandas`, and `pprint`.
 2. Creating an instance of `MongoClient`.
